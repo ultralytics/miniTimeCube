@@ -12,7 +12,7 @@ The https://github.com/ultralytics/mtc repo contains miniTimeCube (mTC) simulati
 V.A. Li, R. Dorrill, M.J. Duvall, J. Koblanski, S. Negrashov, M. Sakai, S.A. Wipperfurth, K. Engel, G.R. Jocher, J.G. Learned, L. Macchiarulo, S. Matsuno, W.F. McDonough, H.P. Mumm, J. Murillo, K. Nishimura, M. Rosen, S.M. Usman, and G.S. Varner, **“Invited Article: miniTimeCube,”** Review of Scientific Instruments 87, 021301 (2016).
 http://dx.doi.org/10.1063/1.4942243
 
-![Alt](https://github.com/ultralytics/agm2015/blob/master/AGM2015small.jpg "AGM2015")
+![Alt](https://github.com/ultralytics/mtc/blob/master/cover.jpg "mTC")
 
 # Requirements
 
