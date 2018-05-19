@@ -1,0 +1,4 @@
+#EventNumber PDGEncoding TrackID ParentID PostStepPositionX(mm) PostStepPositionY(mm) PostStepPositionZ(mm) PostStepGlobalTime(ns) PostStepKineticEnergy(MeV) TotalEnergyDeposit(MeV) 
+         0       -11     1     0    0.00000    0.00000   0           0         2         0.00000 
+         0       -11     1     0    0.00000    0.00000   1           1         1         1.00000 
+         0       -11     1     0    0.00000    0.00000   50          2         0         1.00000 
