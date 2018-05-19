@@ -16,7 +16,7 @@ http://dx.doi.org/10.1063/1.4942243
 
 # Requirements
 
-[MATLAB](https://www.mathworks.com/products/matlab.html) >= 2018a with a common functions repo `$ git clone https://github.com/ultralytics/functions-matlab` and the NUDAR repo `$ git clone https://github.com/ultralytics/nudar` both added to the MATLAB path `>> addpath(genpath('/functions-matlab')); addpath(genpath('/nudar'))` and the following toolboxes:
+[MATLAB](https://www.mathworks.com/products/matlab.html) >= 2018a with a common functions repo `$ git clone https://github.com/ultralytics/functions-matlab` added to the MATLAB path `>> addpath(genpath('/functions-matlab'))` and the following toolboxes:
 
 - `Statistics and Machine Learning Toolbox`
 - `Signal Processing Toolbox`
