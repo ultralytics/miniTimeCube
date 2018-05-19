@@ -7,10 +7,10 @@ http://www.ultralytics.com/projects
 
 # Description
 
-The https://github.com/ultralytics/mtc repo contains AntiNeutrino Global Map (AGM) 2015 production code.
+The https://github.com/ultralytics/mtc repo contains miniTimeCube (mTC) simulation and analysis code.
 
-S.M. Usman, G.R. Jocher, S.T. Dye, W.F. McDonough, and J.G. Learned. AGM2015: Antineutrino Global Map 2015. Sci. Rep. 5, 13945; doi: 10.1038/srep13945 (2015).
-http://www.nature.com/articles/srep13945
+V.A. Li, R. Dorrill, M.J. Duvall, J. Koblanski, S. Negrashov, M. Sakai, S.A. Wipperfurth, K. Engel, G.R. Jocher, J.G. Learned, L. Macchiarulo, S. Matsuno, W.F. McDonough, H.P. Mumm, J. Murillo, K. Nishimura, M. Rosen, S.M. Usman, and G.S. Varner, **“Invited Article: miniTimeCube,”** Review of Scientific Instruments 87, 021301 (2016).
+http://dx.doi.org/10.1063/1.4942243
 
 ![Alt](https://github.com/ultralytics/agm2015/blob/master/AGM2015small.jpg "AGM2015")
 
