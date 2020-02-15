@@ -6,8 +6,8 @@ re=1; a=1;
 
 n=2000; ev=linspace(0,10,n); X=zeros(n);
 for i=1:n
-    E1=ev(i);
-    E2 = linspace(0,E1,n);
+    E1=ev(i);  % initial gamma enerrgy
+    E2 = linspace(0,E1,n);  % gamma energy after scatter
     
     theta=real( acos( me*(1./E1-1./E2)+1 ) );  j=theta==pi;
     
