@@ -1,30 +1,83 @@
-<img src="https://storage.googleapis.com/ultralytics/UltralyticsLogoName1000×676.png" width="200">  
+<br>
+<img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320">
 
-# Introduction
+# 🌟 Introduction
 
-This directory contains software developed by Ultralytics LLC. For more information on Ultralytics projects please visit:
-http://www.ultralytics.com/projects
+Welcome to the official repository for the miniTimeCube (mTC) simulation and analysis code. This documentation is meant to guide you through the setup process, describe how to run simulations, and provide an overview of the analysis capabilities included in this project. Whether you are a physicist, a data scientist, or an enthusiast in the field of particle detection, you'll find the tools and information you need to work with the mTC.
 
-# Description
+# 📚 Description
 
-The https://github.com/ultralytics/mtc repo contains miniTimeCube (mTC) simulation and analysis code.
+The miniTimeCube (mTC) is an innovative, compact neutrino detector designed as a part of a larger scientific endeavor to study and understand neutrino interactions. This repository, available at https://github.com/ultralytics/mtc, contains all the necessary simulation and analysis code related to the mTC project.
 
-V.A. Li, R. Dorrill, M.J. Duvall, J. Koblanski, S. Negrashov, M. Sakai, S.A. Wipperfurth, K. Engel, G.R. Jocher, J.G. Learned, L. Macchiarulo, S. Matsuno, W.F. McDonough, H.P. Mumm, J. Murillo, K. Nishimura, M. Rosen, S.M. Usman, and G.S. Varner, **“Invited Article: miniTimeCube,”** Review of Scientific Instruments 87, 021301 (2016).
-http://dx.doi.org/10.1063/1.4942243
+The scientific paper associated with this project is titled **"Invited Article: miniTimeCube"** and was authored by a team of respected researchers. It presents a deep dive into the design, operation, and capabilities of the mTC. You can access the full article for a comprehensive understanding [here](http://dx.doi.org/10.1063/1.4942243).
 
-![Alt](https://github.com/ultralytics/mtc/blob/master/cover.jpg "mTC")
+<div align="center">
+  <img src="https://github.com/ultralytics/mtc/blob/master/cover.jpg" alt="mTC">
+</div>
 
-# Requirements
+# 🛠 Requirements
 
-[MATLAB](https://www.mathworks.com/products/matlab.html) >= 2018a with a common functions repo `$ git clone https://github.com/ultralytics/functions-matlab` added to the MATLAB path `>> addpath(genpath('/functions-matlab'))` and the following toolboxes:
+To work with the miniTimeCube simulation and analysis code, you will need:
 
-- `Statistics and Machine Learning Toolbox`
-- `Signal Processing Toolbox`
+- **MATLAB** version 2018a or newer. MATLAB is a high-level language and interactive environment for numerical computation, visualization, and programming. If you do not have MATLAB installed, please visit the [official MATLAB website](https://www.mathworks.com/products/matlab.html).
+  
+In addition, please make sure to clone the common functions repository and add it to your MATLAB path:
 
-# Running
+```matlab
+% Clone the functions-matlab repository
+$ git clone https://github.com/ultralytics/functions-matlab
 
-From MATLAB: `>> nView`
+% Add the repository to the MATLAB path
+>> addpath(genpath('/functions-matlab'))
+```
 
-# Contact
+Ensure that the following toolboxes are installed in your MATLAB environment:
+- **Statistics and Machine Learning Toolbox**: Provides functions and apps to describe, analyze, and model data using statistics and machine learning.
+- **Signal Processing Toolbox**: Offers a variety of tools and algorithms for signal processing tasks.
 
-For questions or comments please contact Glenn Jocher at glenn.jocher@ultralytics.com or visit us at http://www.ultralytics.com/contact
+# 🏃 Running the Code
+
+To execute the mTC simulation and analysis code within MATLAB, simply enter the following command in your MATLAB terminal:
+
+```matlab
+% Launch the nView interface
+>> nView
+```
+
+This command starts the `nView` interface, where you can interact with the simulation and analysis tools provided for the miniTimeCube.
+
+# 🤝 Contribute
+
+We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your input is invaluable. Take a look at our [Contributing Guide](https://docs.ultralytics.com/help/contributing) to get started. Also, we'd love to hear about your experience with Ultralytics products. Please consider filling out our [Survey](https://ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A huge 🙏 and thank you to all of our contributors!
+
+<!-- Ultralytics contributors -->
+<a href="https://github.com/ultralytics/yolov5/graphs/contributors">
+<img width="100%" src="https://github.com/ultralytics/assets/raw/main/im/image-contributors.png" alt="Ultralytics open-source contributors"></a>
+
+# ©️ License
+
+Ultralytics is excited to offer two different licensing options to meet your needs:
+
+- **AGPL-3.0 License**: Perfect for students and hobbyists, this [OSI-approved](https://opensource.org/licenses/) open-source license encourages collaborative learning and knowledge sharing. Please refer to the [LICENSE](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) file for detailed terms.
+- **Enterprise License**: Ideal for commercial use, this license allows for the integration of Ultralytics software and AI models into commercial products without the open-source requirements of AGPL-3.0. For use cases that involve commercial applications, please contact us via [Ultralytics Licensing](https://ultralytics.com/license).
+
+# 📬 Contact Us
+
+For bug reports, feature requests, and contributions, head to [GitHub Issues](https://github.com/ultralytics/velocity/issues). For questions and discussions about this project and other Ultralytics endeavors, join us on [Discord](https://ultralytics.com/discord)!
+
+<br>
+<div align="center">
+  <a href="https://github.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-github.png" width="3%" alt="Ultralytics GitHub"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://www.linkedin.com/company/ultralytics/"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-linkedin.png" width="3%" alt="Ultralytics LinkedIn"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://twitter.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-twitter.png" width="3%" alt="Ultralytics Twitter"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://youtube.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-youtube.png" width="3%" alt="Ultralytics YouTube"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://www.tiktok.com/@ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-tiktok.png" width="3%" alt="Ultralytics TikTok"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://www.instagram.com/ultralytics/"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-instagram.png" width="3%" alt="Ultralytics Instagram"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://ultralytics.com/discord"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png" width="3%" alt="Ultralytics Discord"></a>
+</div>
