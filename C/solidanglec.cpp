@@ -48,7 +48,7 @@ void cfunction(double* X, double* P, double* N, double* pa, double* al, double* 
             dz = P[j+2*MP] - z;
             dotproduct = N[j]*dx + N[j+MP]*dy + N[j+2*MP]*dz;
             
-            if (dotproduct>0) // possible transmition
+            if (dotproduct>0) // possible transmission
             {            
                 rs = dx*dx + dy*dy + dz*dz;
                 r[k] = sqrt(rs);

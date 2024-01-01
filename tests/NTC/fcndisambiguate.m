@@ -129,7 +129,7 @@ x = speed*(t1-t2)/2; %mm from center
 t = (t1+t2 - l/speed)/2; %ns
 y = interp1c(1:pmt.strips,pmt.stripx, (L(:,2)+R(:,2))/2); %mm from center
 
-%BREAK DOWN LARGE PULSES INTO SMALLER SINLGES
+%BREAK DOWN LARGE PULSES INTO SMALLER SINGLES
 a=floor( (L(:,3)+R(:,3))/2/dSPRamplitude ); ma=max(a);
 if ma>1
     c=cell(ma,1); tb=c; xb=c; yb=c;  tb{1}=t; xb{1}=x; yb{1}=y;
