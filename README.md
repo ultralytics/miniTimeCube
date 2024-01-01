@@ -20,7 +20,7 @@ The scientific paper associated with this project is titled **"Invited Article: 
 To work with the miniTimeCube simulation and analysis code, you will need:
 
 - **MATLAB** version 2018a or newer. MATLAB is a high-level language and interactive environment for numerical computation, visualization, and programming. If you do not have MATLAB installed, please visit the [official MATLAB website](https://www.mathworks.com/products/matlab.html).
-  
+
 In addition, please make sure to clone the common functions repository and add it to your MATLAB path:
 
 ```matlab
@@ -32,6 +32,7 @@ $ git clone https://github.com/ultralytics/functions-matlab
 ```
 
 Ensure that the following toolboxes are installed in your MATLAB environment:
+
 - **Statistics and Machine Learning Toolbox**: Provides functions and apps to describe, analyze, and model data using statistics and machine learning.
 - **Signal Processing Toolbox**: Offers a variety of tools and algorithms for signal processing tasks.
 
@@ -51,6 +52,7 @@ This command starts the `nView` interface, where you can interact with the simul
 We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your input is invaluable. Take a look at our [Contributing Guide](https://docs.ultralytics.com/help/contributing) to get started. Also, we'd love to hear about your experience with Ultralytics products. Please consider filling out our [Survey](https://ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A huge 🙏 and thank you to all of our contributors!
 
 <!-- Ultralytics contributors -->
+
 <a href="https://github.com/ultralytics/yolov5/graphs/contributors">
 <img width="100%" src="https://github.com/ultralytics/assets/raw/main/im/image-contributors.png" alt="Ultralytics open-source contributors"></a>
 
