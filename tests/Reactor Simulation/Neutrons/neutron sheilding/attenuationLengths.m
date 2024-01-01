@@ -8,7 +8,7 @@ angstroms =  eV_to_Angstroms(x*1E6);
 [angstroms x]
 
 %[nuetron_angstroms, neutron_MeV, 'Linear Attenuation Factor (cm^-1)']
-tabel=[ 8.941   1.0233e-09      4.690
+table=[ 8.941   1.0233e-09      4.690
        6.3917   2.0024e-09      4.655
        4.6935   3.7135e-09      4.632
        3.6366   6.1854e-09      4.618

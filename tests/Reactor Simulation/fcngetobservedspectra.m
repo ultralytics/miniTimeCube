@@ -34,7 +34,7 @@ for i=1:6
         case {4,5} %reactor and atmospheric gammas
             MC = getcandidatefractions(fnames{fi});
             
-            pf = getGammaTransInLead(MC.MeVVector, shield.lead)'; sf = 1-pf;  %pass and sheilded fractions (5cm lead)
+            pf = getGammaTransInLead(MC.MeVVector, shield.lead)'; sf = 1-pf;  %pass and shielded fractions (5cm lead)
             MC.fraction = MC.fraction.*pf;
             MC.fraction(:,end+1) = sf;
             legendstr{9} = sprintf('Shielded %.0fcm lead',shield.lead);

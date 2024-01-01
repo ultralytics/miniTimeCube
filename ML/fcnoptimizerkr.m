@@ -1,5 +1,5 @@
 function k = fcnoptimizerkr(input,output)
-%reduced version of optimzer constants using only active pixels
+%reduced version of optimizer constants using only active pixels
 k = fcnoptimizerk(input,output(1).N);
 
 ti = output.t~=0;  

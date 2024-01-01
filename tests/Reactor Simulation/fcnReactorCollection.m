@@ -32,7 +32,7 @@ flux(3) = 0.7 * area; %Atmospheric Neutrons/s
 flux(4) = 51 * area * rp/20; %Reactor Gammas/s
 flux(5) = 25 * area; %Atmospheric Gammas/s
 flux(6) = .0165 * area; %Muons/s  .0165/cm^2/s
-%flux = flux.*(1-[0 .9869 .9869 .9923 .9923 .6242]'); %Sheilding fractions
+%flux = flux.*(1-[0 .9869 .9869 .9923 .9923 .6242]'); %Shielding fractions
 
 
 %flux = [snuebar.n, 0, 0.05, 0, 13, 4]';

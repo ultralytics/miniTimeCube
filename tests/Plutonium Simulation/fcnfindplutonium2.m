@@ -157,8 +157,8 @@ end
 function [d, s, DEM] = fcngetpositions()
 %GET GE IMAGE -------------------------------------------------------------
 %cam.ssge = [8 2560-720-77 1280 720];  %1080x720; 27" 27" dual monitor hack
-%hge = actxserver('googleearth.ApplicationGE'); %Create a COM server running Google Earth
-%DEM = fcngetGEDEM(hge,70);  fcnFinishStreamProgress(hge);  x=getscreen(cam.ssge);  DEM.cdata = x.cdata;  save DEMHamburg.mat DEM
+%he = actxserver('googleearth.ApplicationGE'); %Create a COM server running Google Earth
+%DEM = fcngetGEDEM(he,70);  fcnFinishStreamProgress(he);  x=getscreen(cam.ssge);  DEM.cdata = x.cdata;  save DEMHamburg.mat DEM
 %MOL Cosmos, Panama
 
 load DEMHamburg
@@ -229,7 +229,7 @@ function z = fcngetcandidates(MC)
     a(:,4) = MC.xhat(:,10,i) - MC.xhat(:,4,i) > 1; %dt > 1ns
     a(:,5) = fcnrange(MC.xhat(:,1:3,i) - MC.xhat(:,7:9,i)) > 10; %dx > 10mm
     a(:,6) = MC.xhat(:,5,i)>0.200; %.3 %first bounce > 100keV
-    a(:,7) = MC.xhat(:,6,i)./MC.xhat(:,12,i) > .2; %dE1/dE2 must be greather than 0.20
+    a(:,7) = MC.xhat(:,6,i)./MC.xhat(:,12,i) > .2; %dE1/dE2 must be greater than 0.20
     a(:,8) = MC.xhat(:,5,i)./MC.xhat(:,18,i) < .9; %dE1./E0 < 0.9
     a(:,9) = MC.xhat(:,5,i)./MC.xhat(:,18,i) > .1; %dE1./E0 > 0.1
     a(:,10) = MC.xhat(:,5,i)<3; %.3 %first bounce > 100keV

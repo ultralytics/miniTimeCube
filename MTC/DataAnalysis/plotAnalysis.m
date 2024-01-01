@@ -31,8 +31,8 @@ catch
     c = ones(size(X,1),1);
 end
 
-i=any(c==[1 2 4 5],2);  fprintf('%g category (1,2,4,5) events over %g runs for %.4g days of reactor ON live-time\n',sum(i),numel(unique(X(i,1))),livetime(X(i,:)));
-i=any(c==6,2);  fprintf('%g category 6 events over %g runs for %.4g days of reactor OFF live-time\n',sum(i),numel(unique(X(i,1))),livetime(X(i,:)));
+i=any(c==[1 2 4 5],2);  fprintf('%g category (1,2,4,5) events over %g runs for %.4g days of reactor ON live-time\n',sum(i),numel(unique(X(i,1))),lifetime(X(i,:)));
+i=any(c==6,2);  fprintf('%g category 6 events over %g runs for %.4g days of reactor OFF live-time\n',sum(i),numel(unique(X(i,1))),lifetime(X(i,:)));
 i=any(c==[1 2 4 5],2);  
 X=X(i,:);  ne=sum(i);
 
@@ -215,7 +215,7 @@ fprintf(fid,['%10g%15g%30.20g' repmat('%10g',1,34) '\n'],T');
 fclose(fid);
 end
 
-function days=livetime(X)
+function days=lifetime(X)
 runs=unique(X(:,1));  n=numel(runs);  T=X(:,3)/1E6;  i=T~=0 & ~isnan(T); T=T(i); X=X(i,:);  t=0;
 for i=1:n
     ti=T(X(:,1)==runs(i));

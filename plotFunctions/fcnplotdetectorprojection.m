@@ -29,7 +29,7 @@ cm = reshape(sc(:,3),[n 4]);
 
 i=find(cm(:,1)<-100 & cm(:,2)>100);  %j = cm(i,1)==-180;  j=i(j);  i=i(~j);  cm(j,[1 4]) = cm(j,[1 4])+360;
 if any(i) %pixels wrapping around the 180deg line
-    if all(p0==0) %we can split pixels, but p0 must be in center of detector to make left and right symetric!
+    if all(p0==0) %we can split pixels, but p0 must be in center of detector to make left and right symmetric!
         cm(i,2:3)=-180;  cm=[cm; -cm(i,:)];  rm=[rm; rm(i,:)];  fxva=[fxva; fxva(i)]; %SPLIT PIXELS IN HALF LEFT AND RIGHT
     else
         cm(i,2:3) = cm(i,2:3)-360; %EXTEND WRAPPED PIXELS TO THE LEFT
