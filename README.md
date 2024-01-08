@@ -5,6 +5,8 @@
 
 Welcome to the official repository for the miniTimeCube (mTC) simulation and analysis code. This documentation is meant to guide you through the setup process, describe how to run simulations, and provide an overview of the analysis capabilities included in this project. Whether you are a physicist, a data scientist, or an enthusiast in the field of particle detection, you'll find the tools and information you need to work with the mTC.
 
+[![Ultralytics Actions](https://github.com/ultralytics/miniTimeCube/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/miniTimeCube/actions/workflows/format.yml)
+
 # 📚 Description
 
 The miniTimeCube (mTC) is an innovative, compact neutrino detector designed as a part of a larger scientific endeavor to study and understand neutrino interactions. This repository, available at https://github.com/ultralytics/mtc, contains all the necessary simulation and analysis code related to the mTC project.
