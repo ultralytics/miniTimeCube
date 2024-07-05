@@ -14,7 +14,7 @@ The miniTimeCube (mTC) is an innovative, compact neutrino detector designed as a
 The scientific paper associated with this project is titled **"Invited Article: miniTimeCube"** and was authored by a team of respected researchers. It presents a deep dive into the design, operation, and capabilities of the mTC. You can access the full article for a comprehensive understanding [here](http://dx.doi.org/10.1063/1.4942243).
 
 <div align="center">
-  <img src="https://github.com/ultralytics/mtc/blob/master/cover.jpg" alt="mTC">
+  <img src="https://github.com/ultralytics/mtc/blob/main/cover.jpg" alt="mTC">
 </div>
 
 # 🛠 Requirements
