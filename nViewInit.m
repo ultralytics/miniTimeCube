@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 %clc
 ha = handles.GUI.axes1;
 rng(1);

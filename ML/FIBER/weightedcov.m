@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function C = weightedcov(x,w)
 %x = NxM, weights = Nx1
 [N,M]=size(x);

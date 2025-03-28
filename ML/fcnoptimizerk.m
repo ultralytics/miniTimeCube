@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function k = fcnoptimizerk(input, output)
 %MTCflag = ischecked(evalin('base','handles.GUI.realdataflag'));
 MTC766flag = false;

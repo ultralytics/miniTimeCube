@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 %Function taken from the NIST website:  
 %http://physics.nist.gov/cgi-bin/Xcom/xcom2
 %Determining the throughput of gammas in lead.  

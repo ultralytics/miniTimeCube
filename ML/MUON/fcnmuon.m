@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function results = fcnmuon(input,output,handles,photons,G1,plotflag)
 results=[];  MTCflag=ischecked(handles.GUI.realdataflag);  if plotflag; closeallexcept([handles.GUI.figure1, findobj('Name','Event Viewer')]); end
 nz = output(1).Nsum;  if nz<30 || nz>30E4;  return;  end

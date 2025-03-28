@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [p2,dt] = fcndetectorintercept(input,p1,vel)
 %p1 is the vector origin, vel is the velocity vector
 %endPos is the vector intercept on the detector wall, dt is the time it took to get there

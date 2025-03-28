@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function c = fcnke2c(ke,mass)
 % kE in MeV
 % mass in MeV

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function []=fcnReactorCollection()
 clc; clear; close all; tic
 t = 60*60*24; %s

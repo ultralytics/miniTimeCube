@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function xa=prepareRCDF(x,c) %(x,cdf)
 %this function prepares a cdf for random value lookup by randcdfc.cpp
 %example:  fig; fcnhist(randcdfc(xa,5E4),100);

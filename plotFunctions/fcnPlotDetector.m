@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function h = fcnPlotDetector(input,Cdata,AlphaData)
 n = input.cube.pixels;
 

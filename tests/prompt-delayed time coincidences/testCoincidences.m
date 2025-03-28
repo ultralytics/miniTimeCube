@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 clc; clear all; close all
 tic
 ns = 60*60*1; %number of seconds

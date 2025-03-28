@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [mu,V] = fitLineND(x,w)
 %x = [n x nd] vector, nd=number dimensions
 if numel(x(:,1))==1

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnplotneutronTS(input,MC,tsv)
 if nargin==1
       [fname, pname] = uigetfile('*.mat','Pick a TS file'); 

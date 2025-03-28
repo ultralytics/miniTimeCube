@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnRun(input)
 clc; close all
 % a=find(any(input.MTC.C{1,2},2)); %1089

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [fall, r] = fcnsolidanglevectorized(k,X)
 %mode = 1; %1=simple, 2=reflect
 np = size(X,1);

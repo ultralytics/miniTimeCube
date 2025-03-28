@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [voxels, error, handlesOut] = fcnTriangulate(input,output,handles,photons)
 error.flags = [output(1).Nsum<10   output(2).Nsum<3      0]; %last flag is fminsearch 'exitflag'
 handlesOut = [];

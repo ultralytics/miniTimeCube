@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function results = fcnNeutronExits(input,output,flags,PE,G1,handles,plotFlag)
 %x=[G1.p1inside G1.p2inside G1.parentinside];
 i=find(G1.p1inside & G1.parentinside & G1.tid==1,1,'last');

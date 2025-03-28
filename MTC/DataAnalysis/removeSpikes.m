@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function V=removeSpikes(V,threshold)
 if nargin==1; threshold=50; end
 

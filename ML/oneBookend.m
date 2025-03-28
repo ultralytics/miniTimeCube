@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function A = oneBookend(F,I,D,PEs,t0,gain)
 MTC766flag=false;
 if MTC766flag

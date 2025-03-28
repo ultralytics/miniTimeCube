@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [x, fx] = fcnMLenergy(input,p0,zN,x0) %vectorized by default
 if sum(zN>0)<3; x=0; fx=0; return; end
 k = fcnoptimizerk(input,zN);  k.reflections = 0;

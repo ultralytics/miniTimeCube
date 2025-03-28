@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnsavefile(input, flags, handles)
 
 %CREATE NAME FOR MAT FILE

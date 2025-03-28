@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnplot2DCF(input,output,handles,photons,G1)
 if output(1).Nsum<19 || output(1).Nsum>1E4;  return;  end;  closeallexcept(handles.GUI.figure1);
 

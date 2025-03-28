@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = plotSkyMap(F,v,angles,np,particleName)
 nr = 100;
 nc = 200;

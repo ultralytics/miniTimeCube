@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function devis = fcnBQF(de,dx,BQF)
 %converts energy to visible energy using BQF 
 %dx = distance travelled in mm

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [C, XC, TC, EC, EFC, str] = fcngetcandidates(input,N,X,T,F,particleName)
 %C=candidates, XC = candidate estimates, TC = candidate truths, EC = candidate estimate errors (xhat-xtrue)
 %N=number of photons, X=xhat estimate, T=xtrue, E=error (xhat-xtrue), F=estimator failure flag, str='antineutrino'

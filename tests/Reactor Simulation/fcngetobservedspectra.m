@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function s = fcngetobservedspectra(shield,plotflag)
 if nargin==1; plotflag=1; end
 close all

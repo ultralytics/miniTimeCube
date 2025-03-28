@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [run,category] = getRunCategories()
 X = GetGoogleSpreadsheet('1LEZYzBG8Ae_jQcYmxaTPxrfccSzXTMRNtyozElfS98k');
 X=X(3:end,[1 13]);  

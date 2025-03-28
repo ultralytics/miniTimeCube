@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function ID = MTCSRCCH2pixelID(SRCCH)
 %load('MTCmapping.mat');  %X = [SRCCH PMT PMTR PMTC ASICs ASICd Si CHs FACE];
 X=getmap;

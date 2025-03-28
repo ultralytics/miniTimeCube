@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcngetnoisestatistics()
 clc; close all
 h=fig(5,1,4,.5);

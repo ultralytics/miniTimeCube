@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [x, fx] = fcnMLpoint(input,output,x0) %vectorized by default
 k = fcnoptimizerk(input,output);  k.reflections = 1;
 zN = k.nhpp;

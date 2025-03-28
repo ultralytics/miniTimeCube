@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function neutronpdfplots(input,G1,handles,x,xcapture)
 mnp = 3; %min number of photons
 nb = 2; %size(x,3); %number of bounces

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [X,Y,Z,conevecs] = fcnplotcone(a,b,angle)
 %function plots a cone with origin 'a', pointing toward 'b', half angle 'angle'
 vec = b - a;

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function results = doubleScatterVerification(results,input,G1,PE,handles,x,s,particle,plotflag)
 MTCflag = ischecked(handles.GUI.realdataflag);
 fiberCaptureFraction=.5;  E2PE=input.Material(5).yield*input.cube.QEmean*fiberCaptureFraction; %MeV to PE

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function a = fcnchannels2windows(a)
 %pa = 1536x32768x5 window format (for 5 pedestals)
 %pb = 786432x64x5 channel format

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [S, R, C, CH, PMT, PMTR, PMTC, As, Ad, Si, CHs] = MTCpixelID2SRCCH(i)
 load('MTCmapping.mat');  %X = [SRCCH PMT PMTR PMTC ASICs ASICd Si CHs FACE];
 %SRCCH(SRCCH(:,1)==0,   1)=102;

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function fcndeconvolve(input,output,flags)
 clc; close; 
 pmt = input.cube.pmt;  dsp = input.cube.dsp;

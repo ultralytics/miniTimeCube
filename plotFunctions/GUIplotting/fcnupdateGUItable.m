@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnupdateGUItable(G1,handles,x)
 h = handles.GUI.uitable1;  if G1.nupid==0; h.Data=[]; return; end
 

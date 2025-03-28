@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function input = fcninittables(input)
 input.cube.prettyname = regexprep(input.cube.MCPname,{'.mat','_'},{'',' '});
 prettyname = regexprep(input.volumeFilename,{'.mat','_'},{'',' '});

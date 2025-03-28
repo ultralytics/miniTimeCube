@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnPlotMTCSRODs(input,output,flags,photons,handles)
 sa = {'SCROD','Row','Column','Channel','PMT','PMTRow','PMTCol','ASIC','ASICd','SOG'};
 [SCROD, Row, Column, Channel, PMT, PMTRow, PMTCol, ASIC, ASICd, ~, SOG] = MTCpixelID2SRCCH(1:1536); %#ok<ASGLU>

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [ output_args ] = fcngetnoisestatistics3channels()
 clc; close all
 h=fig(2,3,1,1);

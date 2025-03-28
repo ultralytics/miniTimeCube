@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [pdf, strip, pid] = fcnanalogvoltage(input,flags,PE,t,ystrip,i,addnoiseflag)
 pmt = input.cube.pmt;
 

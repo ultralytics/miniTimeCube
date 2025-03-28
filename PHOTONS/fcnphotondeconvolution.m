@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [V, QT] = fcnphotondeconvolution(input,flags,X)
 %signal = 1536x256
 if isempty(X); V=X; QT=[]; return; end

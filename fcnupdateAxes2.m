@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function fcnupdateAxes2(input,handles,G1,photons)
 h=handles.GUI.axes2; 
 cla(h)

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [P, input] = fcncylinder(input)
 P = cell(1,6);
 d2r = pi/180;

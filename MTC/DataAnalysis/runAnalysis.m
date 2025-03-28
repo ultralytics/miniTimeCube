@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = runAnalysis()
 close all; clc; clear all %#ok<CLALL>
 load M2.mat;  input.MTC.A.x=[]; input.MTC.C=[]; %#ok<*STRNU>

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnKleinNishina()
 clc; clear all;  close all
 me = 0.510998910; %electron rest mass (MeV) or (MeV/c^2)

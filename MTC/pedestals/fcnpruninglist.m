@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [b, i] = fcnpruninglist(a)
 if nargin==0; a=(1:1536)'; end
 
