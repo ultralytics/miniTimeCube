@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function V = subtractpedestals(pedestals,pedestalOutliers,pid,window,V)
 % load('MTCpedestal') %loads X 98304x71
 % pedestals = muvb(:,8:end);  %#ok<NODEF> %idxm=load('MTCmapping.mat');  b=b(idxm.X(:,1),:);

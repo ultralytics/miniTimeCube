@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 %INITIALIZATION FUNCTIONS -------------------------------------------------
 function varargout = nView(varargin)
 % nView M-file for nView.fig

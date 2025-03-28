@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function wlpdf = cherenkov_magnitude(wl,ir,speed)
 %wl (nm)
 %speed (c)

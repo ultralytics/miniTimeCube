@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcngettimebases(input,handles,flags)
 closeallexcept(handles.GUI.figure1); clc;
 [pathname]=uigetdir([pwd '/*.*','MultiSelect','On'],'Select folder:'); 

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function results = fcnantineutrino(input,output,handles,G1,plotflag)
 zv=zeros(1,10); results.xhat=zv; results.true=zv;  if plotflag; try closeallexcept(handles.GUI.figure1); catch; end; tic; end
 

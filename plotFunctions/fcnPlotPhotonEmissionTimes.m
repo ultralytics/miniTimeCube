@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function h = fcnPlotPhotonEmissionTimes(input,output,photons,PE,handles,G1)
 MTCflag = ischecked(handles.GUI.realdataflag);
 if MTCflag

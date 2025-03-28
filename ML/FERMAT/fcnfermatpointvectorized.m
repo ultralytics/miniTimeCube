@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [fx, gx, F, sourceprobability, F1] = fcnfermatpointvectorized(k,X)
 %X = [xyztw...xyztw]
 gx      = []; %gradient

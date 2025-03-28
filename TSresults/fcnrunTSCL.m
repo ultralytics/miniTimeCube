@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function fcnrunTSCL()
 close all; clc; clear; evalin('base','close all; clc; clear');
 %load M2.mat;  input.MTC.A.x=[]; input.MTC.C=[];

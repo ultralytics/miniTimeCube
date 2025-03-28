@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function neutronpdf(input,flags,handles,GEANT)
 clc; tic
 r2d = 180/pi;

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function trainFiber64(files)
 if nargin==0
     applyFlag=false;

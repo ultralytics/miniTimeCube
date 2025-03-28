@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function results = fcndisambiguate(input,output,handles,PE,flags,plotflag)
 if plotflag; closeallexcept(handles.GUI.figure1);  deleteh(findobj(handles.GUI.figure1,'DisplayName','test')); end
 A=output(1).D;

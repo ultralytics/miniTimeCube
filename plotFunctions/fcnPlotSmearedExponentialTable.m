@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function fcnPlotSmearedExponentialTable(input)
 fig(1,1,'15cm');
 a = input.table.smearExp;

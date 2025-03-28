@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function fcnPlotLorentzFactorGamma(input, photons)
 h=fig(1,2,1.5);
 sca(h(1))

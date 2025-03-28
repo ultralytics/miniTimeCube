@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [input, D, es] = fcnloadMTCQT(pathname,input,flags,handles,plotflag,ei)
 if exist('ei','var') && ~isempty(ei) || flags.status.MC;  MCflag=true; else MCflag=false; end
 if MCflag; plotflag = 0; end;  fprintf('Loading MTC data... '); tic

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function ke = fcnneutronke(x)
 %x=[xyz t E; xyz t E];
 neutronmass = 939.565378; %MeV/c^2

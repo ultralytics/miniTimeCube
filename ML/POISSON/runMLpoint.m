@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function results = runMLpoint(input,output,handles,G1,plotflag)
 results=[];  MTCflag = ischecked(handles.GUI.realdataflag); if MTCflag; A=input.MTC.A; ei=input.eventNumber+1; end; if plotflag; try closeallexcept(handles.GUI.figure1); catch; end; end; tic
 

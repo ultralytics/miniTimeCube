@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function []=trainNewDetector()
 evalin('base','clc; clear all; close all;'); startclock=clock;
 

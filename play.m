@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 legend hide
 % %START PLAYBACK WHEN NEUTRINO ENTERS DETECTOR
 % input.plotTime = get(handles.GUI.slider1,'Value')*input.tMax.current;

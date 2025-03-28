@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [ output_args ] = attenuationLengths( input_args )
 %Polyethelyne (C25-H42-N2-O6, 1.05g/cm^3) shielding tables from
 %http://www.ncnr.nist.gov/instruments/bt1/neutron.html

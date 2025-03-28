@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function xhat = conventionalFiberFit(I, T, threshold)
 nw=size(I,2)/2;  vi{1}=1:nw; vi{2}=vi{1}+nw;
 if nargin==2

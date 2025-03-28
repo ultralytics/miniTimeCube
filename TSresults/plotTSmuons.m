@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = plotTSmuons()
 close(findobj(0,'type','figure'))
 if nargin==0

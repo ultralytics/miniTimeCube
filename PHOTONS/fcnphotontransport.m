@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [photons, PE]= fcnphotontransport(input, P, G1, flags)
 %fprintf('Photons... '); startclock=clock; 
 photons=[];  PE.n=0; photons.count=0; photons.sourceTime=0; photons.Gppid=0; photons.endID=0; photons.ancestor=0;

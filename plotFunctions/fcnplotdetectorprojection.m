@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function fcnplotdetectorprojection(input,iap,fxva,p0,proj,label)
 if ~exist('iap','var')   || isempty(iap);     iap = 1:input.cube.pixels;      end %iap = indices of active pixels
 if ~exist('fxva','var')  || isempty(fxva);    fxva = ones(size(iap))*100;     end %fxva = values of pixels

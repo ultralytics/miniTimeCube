@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnPlotWavelengthDepDist(input)
 %Plots wavelength dependent distributions
 ha = fig(2,3);

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function results = fiberMuonFitter(input,output,flags,PE,G1,handles,x,s,plotflag)
 results=[];
 [~, si] = sortrows(x,4);  x=x(si,:);  s=s(si,:);  %sort by time

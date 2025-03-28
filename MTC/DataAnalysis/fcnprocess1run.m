@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [A, Cout] = fcnprocess1run(A,handles,plotflag)
 try closeallexcept(handles.GUI.figure1); end %#ok<TRYNC>
 if ~exist('plotflag','var') || isempty(plotflag); plotflag=false; end

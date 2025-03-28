@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = plotAnalysis()
 clc; clear; close all 
 %MTC RUNS: https://docs.google.com/spreadsheets/d/1LEZYzBG8Ae_jQcYmxaTPxrfccSzXTMRNtyozElfS98k/edit?usp=sharing

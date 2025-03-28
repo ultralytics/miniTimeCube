@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcntestreflections(input,output,handles,G1,photons)
 clc; close all
 ha = fig(1,2,2.5,2); sca(ha(1));

@@ -1,3 +1,5 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 # LOGIN TO SERVER:
 ssh -X -p 25260 m033372@mtc-b.phys.hawaii.edu
 

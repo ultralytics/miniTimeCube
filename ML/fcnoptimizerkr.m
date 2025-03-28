@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function k = fcnoptimizerkr(input,output)
 %reduced version of optimizer constants using only active pixels
 k = fcnoptimizerk(input,output(1).N);

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function i = fcninsidedetector(x, input, ec)
 %x is nx3 particle position
 %ec is edge cut (optional)

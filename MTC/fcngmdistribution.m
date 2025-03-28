@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [mu,s,k,X] = fcngmdistribution(X)
 %fits data and tells you how many normals make up the underlying mixture distribution
 mu=[];

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [input, flags] = fcnDefinePixels(input,flags,handles)
 if ~flags.update.detectorgeometry;  return;  end
 fprintf('Defining Detector Geometry... '); tic

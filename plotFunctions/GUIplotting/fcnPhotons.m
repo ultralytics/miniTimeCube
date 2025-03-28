@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function x = fcnPhotons(input,handles,flags,photons,PE,G,i)
 v1 = find(photons.started & photons.Gppid==G.upid(i));
 

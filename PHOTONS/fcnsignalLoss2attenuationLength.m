@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function al = fcnsignalLoss2attenuationLength(dBpm)
 %This function converts signal loss (dB/meter) into attenuation length (meters)
 %Example spectra to apply this function to on page 6 of PDF: http://www.crystals.saint-gobain.com/sites/imdf.crystals.com/files/documents/fiber-brochure.pdf

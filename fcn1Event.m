@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [input,output,G1,photons,PE,flags] = fcn1Event(input,flags,handles,G,V) 
 photons.count = 0;
 G1 = [];

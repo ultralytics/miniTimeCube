@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 %Function for calculating the DeBroglie wavelength of a neutron of know Kinetic Energy 
 
 %for use in...http://www.ncnr.nist.gov/instruments/bt1/neutron.html in

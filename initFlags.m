@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 flags.update.pushbutton1=0;
 flags.update.pushbutton2=0;
 flags.update.edit1=1;

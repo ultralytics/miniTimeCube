@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function filename=fcnrunTS(input,GEANT,handles,flags,nj)
 try closeallexcept(handles.GUI.figure1);  flags.status.mtc=ischecked(handles.GUI.realdataflag); end %#ok<TRYNC>
 

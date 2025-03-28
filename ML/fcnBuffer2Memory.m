@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [input, output] = fcnBuffer2Memory(input,flags,handles,PE)
 MTCflag = ischecked(handles.GUI.realdataflag);
 

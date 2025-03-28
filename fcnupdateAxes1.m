@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [input,output,G1,photons,PE,flags,handles]=fcnupdateAxes1(input,output,GEANT,G1,photons,PE,flags,handles)
 
 if flags.update.edit1 %NEW EVENT

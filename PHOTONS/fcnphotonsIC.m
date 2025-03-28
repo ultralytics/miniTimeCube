@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [P, G] = fcnphotonsIC(input, G, i)
 ncs = 4; %number of cherenkov segments (between GEANT points)
 % 1 photons.sourcePos

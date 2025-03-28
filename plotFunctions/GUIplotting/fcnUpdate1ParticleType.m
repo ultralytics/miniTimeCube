@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function []=fcnUpdate1ParticleType(input, upidhandle, G, i)
 pid = G.upid(i); %particleid
 v0 = G.t1<input.plotTime;

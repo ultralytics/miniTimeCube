@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnfindplutonium2()
 clc; close all
 %http://www-pub.iaea.org/MTCD/publications/PDF/P1433_CD/datasets/abstracts/sm_en-20.html

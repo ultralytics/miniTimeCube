@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function results = fiberNeutronFitter(input,output,flags,PE,G1,handles,plotflag)
 results.protonprotonflag = [0 0];
 results.minangleerror = 0;

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnPlotDendrogram(input,output,photons,GEANT,G1)
 X=G1.dendrogram;
 tid = G1.tid;

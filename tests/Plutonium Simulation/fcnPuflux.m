@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [Bi, Si, Ci, Cisb] = fcnPuflux()
 t =     60; % (s)
 n =     61000; % (n/s/kgWGP) Luminosity Weapons Grade Plutonium WGP = 6% Pu240, 94% Pu239

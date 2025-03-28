@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function fcnplotpixels(input,output,handles,G1,flags,PE,ip)
 
 %PATCHES AND FACES --------------------------------------------------------

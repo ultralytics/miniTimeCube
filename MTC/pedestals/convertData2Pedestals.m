@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = convertData2Pedestals(input)
 A=input.MTC.A; input.MTC.A=[]; fname=A.filename;
 E = A.E-min(A.E)+1;

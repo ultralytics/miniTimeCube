@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function results = fcnfastneutron(input,output,handles,PE,G1,plotflag)
 MTCflag = ischecked(handles.GUI.realdataflag);
 results = [];  nz = sum(output(1).N);  if nz<19 || nz>1E4;  return;  end;  if plotflag; closeallexcept(handles.GUI.figure1); end

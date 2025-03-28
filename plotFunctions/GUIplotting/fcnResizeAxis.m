@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnResizeAxis(flags,handles,input,G1)
 h = handles.GUI.axes1;
 padding = [-1 1 -1 1 -1 1]*3; %(mm) extra empty border around event

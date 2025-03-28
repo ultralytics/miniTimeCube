@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 clc; clear; close; format long g
 MeV = 4;
 e = 4; %event number

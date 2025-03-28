@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnGammaAngles(input,flags,handles,GEANT,G1)
 clc
 %fig; plot(theta*r2d,de,'.','markersize',25)

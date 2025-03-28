@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function ratio = fcngain2ratio(gain,type)
 %gain (dB)
 %ratio (amplitudeOut/amplitudeIn)

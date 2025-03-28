@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function results = gatherTrainingData(input,output,PE,G1)
 % mode='trainLAPPDNTC2';
 % switch mode
