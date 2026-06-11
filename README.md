@@ -13,17 +13,17 @@ Welcome to the official repository for the miniTimeCube (mTC) simulation and ana
 
 The miniTimeCube (mTC) is an innovative, compact neutrino detector designed as part of a larger scientific endeavor to study and understand neutrino interactions. This repository contains all the necessary simulation and analysis code related to the mTC project.
 
-The scientific paper associated with this project, titled **"Invited Article: miniTimeCube,"** was authored by a team of respected researchers. It presents a deep dive into the design, operation, and capabilities of the mTC. You can access the full article for a comprehensive understanding via its [DOI link](http://dx.doi.org/10.1063/1.4942243). Understanding concepts like [object detection](https://docs.ultralytics.com/tasks/detect/) can be helpful when working with particle detection data.
+The scientific paper associated with this project, titled **"Invited Article: miniTimeCube,"** was authored by a team of respected researchers. It presents a deep dive into the design, operation, and capabilities of the mTC. You can access the full article for a comprehensive understanding via its [DOI link](https://doi.org/10.1063/1.4942243). Understanding concepts like [object detection](https://docs.ultralytics.com/tasks/detect/) can be helpful when working with particle detection data.
 
 <div align="center">
-  <img src="https://github.com/ultralytics/mtc/blob/main/cover.jpg" alt="mTC">
+  <img src="cover.jpg" alt="miniTimeCube detector cover image">
 </div>
 
 ## 🛠 Requirements
 
 To work with the miniTimeCube simulation and analysis code, you will need:
 
--   **MATLAB** version 2018a or newer. MATLAB is a high-level language and interactive environment for numerical computation, visualization, and programming. If you do not have MATLAB installed, please visit the [official MATLAB website](https://www.mathworks.com/products/matlab.html). Familiarity with [data visualization](https://www.ultralytics.com/glossary/data-visualization) techniques is also beneficial.
+-   **MATLAB** R2018a or newer. MATLAB is a high-level language and interactive environment for numerical computation, visualization, and programming. If you do not have MATLAB installed, please visit the [official MATLAB website](https://www.mathworks.com/products/matlab.html). Familiarity with [data visualization](https://www.ultralytics.com/glossary/data-visualization) techniques is also beneficial.
 
 In addition, please make sure to clone the common functions repository and add it to your MATLAB path:
 
@@ -41,6 +41,7 @@ Ensure that the following toolboxes are installed in your MATLAB environment:
 
 -   **Statistics and Machine Learning Toolbox**: Provides functions and apps to describe, analyze, and model data using statistics and [machine learning](https://www.ultralytics.com/glossary/machine-learning-ml).
 -   **Signal Processing Toolbox**: Offers a variety of tools and algorithms for signal processing tasks, crucial for analyzing detector outputs.
+-   **Global Optimization Toolbox**: Optional, but recommended for optimizer routines that call `psoptimset`.
 
 ## 🏃 Running the Code
 
