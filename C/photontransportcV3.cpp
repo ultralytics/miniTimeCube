@@ -1,3 +1,5 @@
+// Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 //purpose:  photon intercepts on a rectangular surface
 //inputs:   AT-attenuationTime(ns)
 //outputs:  
