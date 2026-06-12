@@ -13,7 +13,7 @@ Welcome to the official repository for the miniTimeCube (mTC) simulation and ana
 
 The miniTimeCube (mTC) is an innovative, compact neutrino detector designed as part of a larger scientific endeavor to study and understand neutrino interactions. This repository contains all the necessary simulation and analysis code related to the mTC project.
 
-The scientific paper associated with this project, titled **"Invited Article: miniTimeCube,"** was authored by a team of respected researchers. It presents a deep dive into the design, operation, and capabilities of the mTC. You can access the full article for a comprehensive understanding via its [DOI link](https://doi.org/10.1063/1.4942243). Understanding concepts like [object detection](https://docs.ultralytics.com/tasks/detect/) can be helpful when working with particle detection data.
+The scientific paper associated with this project, titled **"Invited Article: miniTimeCube,"** was authored by a team of respected researchers. It presents a deep dive into the design, operation, and capabilities of the mTC. You can access the full article for a comprehensive understanding via its [DOI link](https://pubs.aip.org/rsi/article/87/2/021301/1019437/Invited-Article-miniTimeCube). Understanding concepts like [object detection](https://docs.ultralytics.com/tasks/detect) can be helpful when working with particle detection data.
 
 <div align="center">
   <img src="cover.jpg" alt="miniTimeCube detector cover image">
@@ -56,7 +56,7 @@ This command starts the `nView` interface, where you can interact with the simul
 
 ## 🤝 Contribute
 
-We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your input is invaluable. Take a look at our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) to get started. Also, we'd love to hear about your experience with Ultralytics products. Please consider filling out our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A huge 🙏 and thank you to all of our contributors!
+We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your input is invaluable. Take a look at our [Contributing Guide](https://docs.ultralytics.com/help/contributing) to get started. Also, we'd love to hear about your experience with Ultralytics products. Please consider filling out our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A huge 🙏 and thank you to all of our contributors!
 
 [![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics/graphs/contributors)
 
@@ -64,7 +64,7 @@ We welcome contributions from the community! Whether you're fixing bugs, adding 
 
 Ultralytics offers two licensing options to accommodate diverse needs:
 
--   **AGPL-3.0 License**: Ideal for students and enthusiasts, this [OSI-approved](https://opensource.org/license/agpl-3-0/) open-source license promotes collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/miniTimeCube/blob/main/LICENSE) file for details.
+-   **AGPL-3.0 License**: Ideal for students and enthusiasts, this [OSI-approved](https://opensource.org/license/agpl-3-0) open-source license promotes collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/miniTimeCube/blob/main/LICENSE) file for details.
 -   **Enterprise License**: Designed for commercial use, this license permits seamless integration of Ultralytics software and AI models into commercial products and services. For commercial applications, please contact us via [Ultralytics Licensing](https://www.ultralytics.com/license).
 
 ## 📬 Contact Us
