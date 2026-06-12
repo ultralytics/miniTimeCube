@@ -23,7 +23,7 @@ The scientific paper associated with this project, titled **"Invited Article: mi
 
 To work with the miniTimeCube simulation and analysis code, you will need:
 
--   **MATLAB** R2018a or newer. MATLAB is a high-level language and interactive environment for numerical computation, visualization, and programming. If you do not have MATLAB installed, please visit the [official MATLAB website](https://www.mathworks.com/products/matlab.html). Familiarity with [data visualization](https://www.ultralytics.com/glossary/data-visualization) techniques is also beneficial.
+- **MATLAB** R2018a or newer. MATLAB is a high-level language and interactive environment for numerical computation, visualization, and programming. If you do not have MATLAB installed, please visit the [official MATLAB website](https://www.mathworks.com/products/matlab.html). Familiarity with [data visualization](https://www.ultralytics.com/glossary/data-visualization) techniques is also beneficial.
 
 In addition, please make sure to clone the common functions repository and add it to your MATLAB path:
 
@@ -39,9 +39,9 @@ addpath(genpath('/path/to/functions-matlab')) % Replace /path/to/ with the actua
 
 Ensure that the following toolboxes are installed in your MATLAB environment:
 
--   **Statistics and Machine Learning Toolbox**: Provides functions and apps to describe, analyze, and model data using statistics and [machine learning](https://www.ultralytics.com/glossary/machine-learning-ml).
--   **Signal Processing Toolbox**: Offers a variety of tools and algorithms for signal processing tasks, crucial for analyzing detector outputs.
--   **Global Optimization Toolbox**: Optional, but recommended for optimizer routines that call `psoptimset`.
+- **Statistics and Machine Learning Toolbox**: Provides functions and apps to describe, analyze, and model data using statistics and [machine learning](https://www.ultralytics.com/glossary/machine-learning-ml).
+- **Signal Processing Toolbox**: Offers a variety of tools and algorithms for signal processing tasks, crucial for analyzing detector outputs.
+- **Global Optimization Toolbox**: Optional, but recommended for optimizer routines that call `psoptimset`.
 
 ## 🏃 Running the Code
 
@@ -64,8 +64,8 @@ We welcome contributions from the community! Whether you're fixing bugs, adding 
 
 Ultralytics offers two licensing options to accommodate diverse needs:
 
--   **AGPL-3.0 License**: Ideal for students and enthusiasts, this [OSI-approved](https://opensource.org/license/agpl-3-0) open-source license promotes collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/miniTimeCube/blob/main/LICENSE) file for details.
--   **Enterprise License**: Designed for commercial use, this license permits seamless integration of Ultralytics software and AI models into commercial products and services. For commercial applications, please contact us via [Ultralytics Licensing](https://www.ultralytics.com/license).
+- **AGPL-3.0 License**: Ideal for students and enthusiasts, this [OSI-approved](https://opensource.org/license/agpl-3-0) open-source license promotes collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/miniTimeCube/blob/main/LICENSE) file for details.
+- **Enterprise License**: Designed for commercial use, this license permits seamless integration of Ultralytics software and AI models into commercial products and services. For commercial applications, please contact us via [Ultralytics Licensing](https://www.ultralytics.com/license).
 
 ## 📬 Contact Us
 
