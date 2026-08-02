@@ -1,6 +1,6 @@
 <a href="https://www.ultralytics.com/"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
-# 🌟 Introduction
+# 🌟 miniTimeCube (mTC)
 
 Welcome to the official repository for the miniTimeCube (mTC) simulation and analysis code. This documentation guides you through the setup process, describes how to run simulations, and provides an overview of the analysis capabilities included in this project. Whether you are a physicist, a [data scientist](https://www.ultralytics.com/glossary/data-analytics), or an enthusiast in the field of particle detection, you'll find the tools and information needed to work with the mTC.
 
