@@ -28,12 +28,12 @@ std::vector<double> example(std::vector<double> Xa){
 void cfunction(int rows, double* A)
 {
     int i;
-    float u,theta,b;
+    double u,theta,b;
     
     for (i=0; i<(rows+1); i++)
     {
-        u = (float)rand()/RAND_MAX*2 - 1;
-        theta = (float)rand()/RAND_MAX*2*M_PI;
+        u = (double)rand()/RAND_MAX*2 - 1;
+        theta = (double)rand()/RAND_MAX*2*M_PI;
         b = sqrt(1-u*u);
         
         A[i] = b*cos(theta);
@@ -47,12 +47,12 @@ void cfunction(int rows, double* A)
 void cfunction2(int rows, std::vector<double> A)
 {
     int i;
-    float u,theta,b;
+    double u,theta,b;
     
     for (i=0; i<(rows+1); i++)
     {
-        u = (float)rand()/RAND_MAX*2 - 1;
-        theta = (float)rand()/RAND_MAX*2*M_PI;
+        u = (double)rand()/RAND_MAX*2 - 1;
+        theta = (double)rand()/RAND_MAX*2*M_PI;
         b = sqrt(1-u*u);
         
         A[i] = b*cos(theta);
