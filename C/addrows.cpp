@@ -28,7 +28,7 @@ std::vector<double> example(std::vector<double> Xa){
 void cfunction(int rows, double* A)
 {
     int i;
-    float u,theta,b;
+    double u,theta,b;
     
     for (i=0; i<(rows+1); i++)
     {
@@ -47,7 +47,7 @@ void cfunction(int rows, double* A)
 void cfunction2(int rows, std::vector<double> A)
 {
     int i;
-    float u,theta,b;
+    double u,theta,b;
     
     for (i=0; i<(rows+1); i++)
     {

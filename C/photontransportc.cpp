@@ -28,7 +28,7 @@ void diffusevecc(double nx, double ny, double nz, double *X, double *Y, double *
 }
 
 void isovecs(double* X, double* Y, double* Z){
-    float u,theta,b;
+    double u,theta,b;
     
     u = (float)rand()/RAND_MAX*2 - 1;
     theta = (float)rand()/RAND_MAX*2*M_PI;
