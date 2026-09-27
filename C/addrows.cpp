@@ -32,8 +32,8 @@ void cfunction(int rows, double* A)
     
     for (i=0; i<(rows+1); i++)
     {
-        u = (float)rand()/RAND_MAX*2 - 1;
-        theta = (float)rand()/RAND_MAX*2*M_PI;
+        u = (double)rand()/RAND_MAX*2 - 1;
+        theta = (double)rand()/RAND_MAX*2*M_PI;
         b = sqrt(1-u*u);
         
         A[i] = b*cos(theta);
@@ -51,8 +51,8 @@ void cfunction2(int rows, std::vector<double> A)
     
     for (i=0; i<(rows+1); i++)
     {
-        u = (float)rand()/RAND_MAX*2 - 1;
-        theta = (float)rand()/RAND_MAX*2*M_PI;
+        u = (double)rand()/RAND_MAX*2 - 1;
+        theta = (double)rand()/RAND_MAX*2*M_PI;
         b = sqrt(1-u*u);
         
         A[i] = b*cos(theta);
